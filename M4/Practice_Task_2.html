@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <form>    
+  <h2>Storytelling Contest Feedback Form</h2>
+  <form action="/submit_feedback" method="post">
+    <!-- Textarea for Story Input -->
+    <label for="story">Share Your Story:</label><br>
+    <textarea id="story" name="story" rows="10" cols="50" placeholder="Write your story here..."></textarea><br><br>
+
+    <!-- Dropdown for Rating -->
+    <label for="rating">Rate the Story:</label><br>
+    <select id="rating" name="rating">
+      <option value="good">Good</option>
+      <option value="excellent">Excellent</option>
+      <option value="average">Average</option>
+      <option value="poor">Poor</option>
+    </select><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit Feedback">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+#TWO{
+    background-color: blueviolet;
+}
+p{
+    color: aqua;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-style: italic;
+}
+#yo{
+background-color: cornflowerblue;
+}
+#oy{
+    background-color: yellowgreen;
+    
+}
+img{
+    size: 100px;
+    position: absolute;
+}
+body{
+    background-image: url(Black\ &\ Blue\ Minimalist\ Modern\ Initial\ Font\ Logo.png);
+    background-repeat: repeat-x;
+}
